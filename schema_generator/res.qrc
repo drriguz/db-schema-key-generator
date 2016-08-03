@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/i">
+        <file>evil.png</file>
+        <file>logo.png</file>
+        <file>bg.png</file>
+    </qresource>
+</RCC>
