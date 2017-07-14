@@ -1,13 +1,5 @@
-CC = g++
-
-objects = md5.o console_main.o
-bin = keygen
-
-all:main
-
-main:$(objects)
-	$(CC) -o $(bin) $(objects)
-
+main: main.cpp md5.cpp
+	        g++ -std=c++11 -o keygen console_main.cpp md5.cpp
 .PHONY: clean
-clean:
-	rm -f $(objects) $(bin)
+	clean:
+	        rm -f *.o keygen
