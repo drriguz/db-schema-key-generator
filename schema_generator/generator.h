@@ -16,10 +16,7 @@ inline unsigned int random(int min, int max){
 
 inline const string getSalt(){
     int r = random(10000, 30000);
-    string str = "" + r;
-    stringstream ss;
-    ss << r;
-    return ss.str();
+    return std::to_string(r);
 }
 inline const string generateKey(string name)
 {
