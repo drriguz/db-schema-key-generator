@@ -16,4 +16,4 @@ make
 
 or if you want to build a Qt GUI version like the snapshot above, please open the project with Qt creator.
 
-Tested on DbSchema version `7.4.0 build 4457`,`7.5.1 build 4714`.
+Tested on DbSchema version `7.4.0 build 4457`,`7.5.1 build 4714`,`8.0.5 build 5089`.
